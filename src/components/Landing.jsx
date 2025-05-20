@@ -16,8 +16,8 @@ const Landing = () => {
     let passwordField = formData.current[1];
 
     let credentials = {
-      email: 'yas@gmail.com',
-      password: 'yas3103'
+      email: 'admin@gmail.com',
+      password: 'admin123'
     }
 
     let { email, password } = credentials
@@ -58,9 +58,9 @@ const Landing = () => {
           </div>
           <div className="formbox">
             <form onSubmit={handleForm} ref={formData}>
-              <input type="email" placeholder='Enter Email Address' />
+              <input type="email" placeholder='admin@gmail.com' />
               <span>{emailErr}</span>
-              <input type="password" placeholder='Enter Password' />
+              <input type="password" placeholder='admin123' />
               <span>{passwordErr}</span>
               <button>Login</button>
             </form>

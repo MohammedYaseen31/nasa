@@ -6,7 +6,7 @@ const RoverCards = () => {
     let [nasa, setNasa] = useState([])
     useEffect(() => {
         let fetchApi = async () => {
-            let ApiData = await axios.get(`http://localhost:4000/photos`)
+            let ApiData = await axios.get(`https://mohammedyaseen31.github.io/nasa_api/photos.json`)
             // console.log(ApiData);
             setNasa(ApiData.data)
         }

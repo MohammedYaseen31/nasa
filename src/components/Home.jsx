@@ -10,7 +10,7 @@ const Home = () => {
     // console.log(bool);
     setTimeout(() => {
       cardNavigate(`/card`)
-    }, 18000)
+    }, 9000)
   }
   
   return (
